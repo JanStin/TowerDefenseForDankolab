@@ -39,16 +39,13 @@ public class TowerSpot : MonoBehaviour
 
     private bool CanUpgradeTower()
     {
-        print("d");
         if (_tower != null)
         {
-            print("if 1");
             TowerData towerData = _tower.GetComponent<TowerData>();
             TowerLevel nextLevel = towerData.GetNextLevel();
             
             if (nextLevel != null&& _gameManager.Gold >= nextLevel.cost)
             {
-                print("f2");
                 return true;
             }
         }
