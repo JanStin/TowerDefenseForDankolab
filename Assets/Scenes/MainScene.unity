@@ -14497,6 +14497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1639993573}
+  - component: {fileID: 1639993574}
   m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
@@ -14526,6 +14527,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1639993574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639993572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff20ad9f52e068a4bad8237c38fdde41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 1898048895}
+  - {fileID: 1959282084}
+  - {fileID: 1975566097}
+  - {fileID: 118603456}
+  - {fileID: 1411596928}
+  - {fileID: 384752216}
+  - {fileID: 1957457634}
+  - {fileID: 703035821}
+  waves:
+  - enemyPrefab: {fileID: 197334, guid: 528efbf516c4d494f95b757050f7d09d, type: 3}
+    spawnInterval: 2
+    maxEnemies: 5
+  - enemyPrefab: {fileID: 197334, guid: 528efbf516c4d494f95b757050f7d09d, type: 3}
+    spawnInterval: 2
+    maxEnemies: 5
+  timeBetweenWaves: 5
 --- !u!1001 &1640066329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16698,6 +16728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goldLabel: {fileID: 1238916815}
+  waveLabel: {fileID: 1335558516}
   gameOver: 0
 --- !u!4 &1923643793 stripped
 Transform:
