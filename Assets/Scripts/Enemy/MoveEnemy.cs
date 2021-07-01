@@ -37,8 +37,10 @@ public class MoveEnemy : MonoBehaviour
             }
             else
             {
-                Destroy(gameObject);                
-                // TODO: Вычитать жизни
+                Destroy(gameObject);
+
+                GameManagerBehavior gameManager = GameObject.Find("GameManager").GetComponent<GameManagerBehavior>();
+                gameManager.Health -= 1;
             }
         }
     }

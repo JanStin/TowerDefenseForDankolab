@@ -16729,6 +16729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldLabel: {fileID: 1238916815}
   waveLabel: {fileID: 1335558516}
+  healthLabel: {fileID: 924978817}
   gameOver: 0
 --- !u!4 &1923643793 stripped
 Transform:
@@ -16928,7 +16929,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959282084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.21, y: 1.37, z: 0}
+  m_LocalPosition: {x: -4.22, y: 1.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1639993573}

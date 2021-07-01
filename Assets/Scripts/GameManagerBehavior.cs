@@ -52,8 +52,7 @@ public class GameManagerBehavior : MonoBehaviour
             if (_health <= 0 && !gameOver)
             {
                 gameOver = true;
-                GameObject gameOverText = GameObject.FindGameObjectWithTag("GameOver");
-                gameOverText.SetActive(true);
+                GameOver.RestartLevel();
             }
         }
     }
@@ -63,5 +62,6 @@ public class GameManagerBehavior : MonoBehaviour
     {
         Gold = 1000;
         Wave = 0;
+        Health = 5;
     }
 }

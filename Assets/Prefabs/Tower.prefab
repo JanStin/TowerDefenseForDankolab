@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7097029632423450598}
   - component: {fileID: 7685178954714692304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tower2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374742186068796357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 5777724494250404200}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8649902387063231268}
   - component: {fileID: 3721081493054964821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tower1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765165950292611636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 5777724494250404200}
@@ -174,9 +174,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5777724494250404200}
   - component: {fileID: -7271416760322859412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tower
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1783218450917695111}
   - component: {fileID: 3605509910464668777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tower0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5614185339664307074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 5777724494250404200}
