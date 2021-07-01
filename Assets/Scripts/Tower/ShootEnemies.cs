@@ -81,11 +81,11 @@ public class ShootEnemies : MonoBehaviour
         startPosition.z = bulletPrefab.transform.position.z;
         targetPosition.z = bulletPrefab.transform.position.z;
 
-        //GameObject newBullet = Instantiate(bulletPrefab);
-        //newBullet.transform.position = startPosition;
-        //BulletBehavior bulletComp = newBullet.GetComponent<BulletBehavior>();
-        //bulletComp.target = target.gameObject;
-        //bulletComp.startPosition = startPosition;
-        //bulletComp.targetPosition = targetPosition;
+        GameObject newBullet = Instantiate(bulletPrefab);
+        newBullet.transform.position = startPosition;
+        BulletBehavior bulletComp = newBullet.GetComponent<BulletBehavior>();
+        bulletComp.target = target.gameObject;
+        bulletComp.startPosition = startPosition;
+        bulletComp.targetPosition = targetPosition;
     }
 }
