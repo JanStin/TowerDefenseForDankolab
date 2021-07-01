@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7097029632423450598}
   - component: {fileID: 7685178954714692304}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tower2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8649902387063231268}
   - component: {fileID: 3721081493054964821}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tower1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,9 +174,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5777724494250404200}
   - component: {fileID: -7271416760322859412}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tower
-  m_TagString: Tower
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1783218450917695111}
   - component: {fileID: 3605509910464668777}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tower0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
