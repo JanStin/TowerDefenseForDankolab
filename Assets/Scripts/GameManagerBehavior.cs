@@ -52,6 +52,7 @@ public class GameManagerBehavior : MonoBehaviour
             if (_health <= 0 && !gameOver)
             {
                 gameOver = true;
+                Debug.Log("GameOver");
                 GameOver.RestartLevel();
             }
         }
