@@ -5,6 +5,7 @@ public class GameManagerBehavior : MonoBehaviour
 {
     public Text goldLabel;
     public Text waveLabel;
+    public Text healthLabel;
 
     public bool gameOver = false;
 
@@ -33,6 +34,27 @@ public class GameManagerBehavior : MonoBehaviour
         {
             _wave = value;
             waveLabel.text = "WAVE:" + _wave + 1;
+        }
+    }
+
+    private int _health;
+    public int Health
+    {
+        get
+        {
+            return _health;
+        }
+        set
+        {
+            _health = value;
+            healthLabel.text = "HEALTH:" + _health;
+
+            if (_health <= 0 && !gameOver)
+            {
+                gameOver = true;
+                GameObject gameOverText = GameObject.FindGameObjectWithTag("GameOver");
+                gameOverText.SetActive(true);
+            }
         }
     }
 
